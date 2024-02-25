@@ -27,31 +27,105 @@ header {
     color: rgb(12, 12, 202);
     font-weight: bold;
 }
+/* main section */
+main {
+    max-width: 1200px;
+    margin: 130px 100px;
+}
 /* failure section */
-section{
+.failuire-section {
     display: flex;
     height: 500px;
     justify-content: space-between;
+}
+.failure-content {
+    margin-top: 20px;
+}
+.failure-title {
+    width: 300px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.failure-desc {
+    width: 450px;
+    font-size: 16px;
+    color: rgb(83, 83, 83);
+    margin: 30px 0;
+}
+.failure-sub-desc {
+    font-size: 14px;
+    color: rgb(83, 83, 83);
+}
+/* plan section */
+.plan-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 0;
+}
+.plan-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.plan-items {
+    text-align: center;
+}
+.plan-sub-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+/* mind set section */
+.img {
+    width: 800px;
     margin: 130px 100px;
+    border-radius: 10px;
+    background-image: url('/images/watch.png');
+    position: absolute;
 }
-.failure-content{
-  margin-top: 20px;
-  /* width: 500px; */
+.mind-items {
+    position: relative;
+    padding-top: 150px;
+    margin-left: 150px;
 }
-.failure-title{
-  width: 300px;
-  font-size: 40px;
-  font-weight: bold;
-  margin-bottom: 0;
+.mind-title {
+    font-size: 30px;
+    width: 300px;
+    color: white;
+    margin-bottom: 0;
 }
-.failure-desc{
-  width: 450px;
-  font-size: 16px;
-  color:rgb(83, 83, 83);
- margin: 30px 0;
+/* footer sectrion */
+footer {
+    background: #0c0c0c;
 }
-.failure-sub-desc{
-  font-size: 14px;
-  color:rgb(83, 83, 83);
-
+.footer-container {
+    padding: 60px 100px;
+    display: flex;
+}
+.footer-content {
+    padding: 100px 100px;
+    color: white;
+    width: 500px;
+}
+.footer-title {
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.footer-info {
+    color: rgb(211, 208, 208);
+    margin: 8px 0;
+}
+.subcribes {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+.input {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 40px;
+    background-color: black;
+    border: white 1px solid;
+    border-radius: 5px;
 }
